@@ -28,7 +28,9 @@ function App() {
 
   return (
    <>
-   <div className=' w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat' style={{backgroundImage :`url('https://images.pexels.com/photos/395196/pexels-photo-395196.jpeg?auto=compress&cs=tinysrgb&w=600')`, }} >
+   <div className=' w-full h-screen flex flex-wrap 
+                    justify-center items-center bg-cover bg-no-repeat' 
+                    style={{backgroundImage :`url('https://images.pexels.com/photos/395196/pexels-photo-395196.jpeg?auto=compress&cs=tinysrgb&w=600')`, }} >
 
       <div className="w-full ">
 
@@ -49,8 +51,9 @@ function App() {
 
                       <div className="relative w-full h-0.5">
                         <button type='button' className='absolute left-1/2
-                                                          -translate-x-1/2 -translate-y-1/2 border-2 border-white rounded-md bg-blue-600 text-white
-                                                          px-2 py-0.5' onClick={swap}>swap</button>
+                                                          -translate-x-1/2 -translate-y-1/2
+                                                           border-2 border-white rounded-md bg-blue-600
+                                                            text-white px-2 py-0.5' onClick={swap}>swap</button>
                       </div>
 
                       <div className="w-full mt-1 mb-4">
@@ -64,7 +67,8 @@ function App() {
                         
                       </div>
 
-                      <button type="submit" className='w-full bg-blue-600 text-white px-4 py-3 rounded-lg'> 
+                      <button type="submit" className='w-full bg-blue-600
+                                                       text-white px-4 py-3 rounded-lg'> 
                          Convert {from.toUpperCase()} to {to.toUpperCase()}
                       </button>
 

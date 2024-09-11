@@ -15,12 +15,12 @@ function Github() {
 //    },[])
   return (
     <>
-    <div className=" flex bg-slate-600 text-white">
-        <div className=" w-1/3">
-          <img src="{data.avatar_url}" alt="Github pic" />
+    <div className=" flex py-32 text-gray-600 border-2 rounded-md shadow-sm">
+        <div className=" w-1/3 border-r-4 flex justify-center text-center mx-auto">
+          <img className='rounded-full h-64 w-64 ' src="https://images.pexels.com/photos/33045/lion-wild-africa-african.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Github pic" />
             
         </div>
-        <div className="flex flex-col  justify-start text-left px-4">
+        <div className="flex flex-col  justify-start text-left px-4 ">
             Name : {data.name} <br />
             Followers :{ data.followers} <br />
             Bio:  {data.bio} <br />
